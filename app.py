@@ -264,8 +264,8 @@ def generate_pdf_report(report):
         pdf.multi_cell(0, 6, f"{idx}. {phrase}")
         pdf.ln(2)
     
-    # Générer le PDF
-    pdf_output = pdf.output(dest="S").encode("latin-1", errors='ignore')
+    # Générer le PDF avec fpdf2
+    pdf_output = bytes(pdf.output())
     
     return pdf_output
 
