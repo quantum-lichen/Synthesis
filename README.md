@@ -162,9 +162,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 - Suggérer des améliorations
 - Proposer de nouvelles fonctionnalités
 
-## 📄 Licence
-
-Ce projet est sous licence MIT.
 
 ## 👨‍💻 Auteur
 
